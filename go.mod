@@ -2,7 +2,7 @@ module github.com/openconfig/gnmi
 
 go 1.24.0
 
-toolchain go1.25.1
+toolchain go1.25.5
 
 require (
 	bitbucket.org/creachadair/stringset v0.0.14
@@ -12,20 +12,20 @@ require (
 	github.com/kylelemons/godebug v1.1.0
 	github.com/openconfig/grpctunnel v0.1.0
 	github.com/openconfig/ygot v0.34.0
-	github.com/protocolbuffers/txtpbfmt v0.0.0-20250903173655-cf07efcaeff7
-	golang.org/x/crypto v0.45.0
-	golang.org/x/net v0.47.0
-	google.golang.org/grpc v1.75.1
-	google.golang.org/grpc/cmd/protoc-gen-go-grpc v1.5.1
-	google.golang.org/protobuf v1.36.9
+	github.com/protocolbuffers/txtpbfmt v0.0.0-20251124094003-fcb97cc64c7b
+	golang.org/x/crypto v0.46.0
+	golang.org/x/net v0.48.0
+	google.golang.org/grpc v1.77.0
+	google.golang.org/grpc/cmd/protoc-gen-go-grpc v1.6.0
+	google.golang.org/protobuf v1.36.11
 )
 
 require (
 	github.com/mitchellh/go-wordwrap v1.0.1 // indirect
 	github.com/openconfig/goyang v1.6.0 // indirect
 	golang.org/x/exp v0.0.0-20250218142911-aa4b98e5adaa // indirect
-	golang.org/x/sys v0.38.0 // indirect
-	golang.org/x/term v0.37.0 // indirect
-	golang.org/x/text v0.31.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20250707201910-8d1bb00bc6a7 // indirect
+	golang.org/x/sys v0.39.0 // indirect
+	golang.org/x/term v0.38.0 // indirect
+	golang.org/x/text v0.32.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20251022142026-3a174f9686a8 // indirect
 )
